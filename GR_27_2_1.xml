@@ -1,0 +1,59 @@
+XML
+1. Создать внешний репозиторий c названием XML.
+2. Клонировать репозиторий XML на локальный компьютер.
+3. Внутри локального XML создать файл “new.xml”.
+4. Добавить файл под гит.
+5. Закоммитить файл.
+6. Отправить файл на внешний GitHub репозиторий.
+7. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст). Всё написать в формате XML.
+8. Отправить изменения на внешний репозиторий.
+9. Создать файл duration_of_study.xml
+10. В файл duration_of_study.xml добавить информацию (продолжительность обучения) в формате XML.
+11. Создать файл training_program.xml добавить информацию о  курсе в формате XML
+12. Сделать коммит в одну строку. 
+13. Отправить сразу 2 файла на внешний репозиторий.
+14. На веб интерфейсе создать файл bug_report.xml.
+15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+16. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+18. Синхронизировать внешний и локальный репозиторий XML
+
+Как отправить ДЗ на проверку.
+19. Создайте файл GR_27_2_1.xml.
+20. Сценарий перенесите в этот файл (на против каждого действия - напишите команду в GitBash)
+21. Добавить файл под гит.
+22. Закоммитить файл.
+23. Отправить файл на внешний GitHub репозиторий.
+
+
+
+XML
+1.New repository 
+Repository name				homework_2_XML
+2.git clone https://github.com/IsaevEvgeniy/homework_2_XML.git
+3.touch new.xml
+4.git add new.xml
+5.git commit -m "release v1"
+6.git push 
+7.nano new.xml
+8.git add new.xml
+git commit -m "release v2" 
+git push
+9.touch duration_of_study.xml
+10.nano duration_of_study.xml
+11.touch training_program.xml    nano training_program.xml
+12.git add duration_of_study.xml training_program.xml
+git commit -m "release v3"
+13.git push
+14.add file bug_report.xml		
+15.commit changer 	(зафиксировать новый файл) Browse files (отменить изменения)
+16.go to file		edit this file		
+17.commit changer 	(зафиксировать новый файл) Browse files (отменить изменения)
+18.git pull
+
+Как отправить ДЗ на проверку.
+19.touch GR_27_2_1.xml.
+20.nano GR_27_2_1.xml.
+21.git add GR_27_2_1.xml.
+22.git commit -m "release v6".
+23.git push.
